@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st site</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--<video autoplay loop muted plays-inline class="back-video">
+        <source src="video1.mp4" type="video/mp4">
+    </video>-->
+    <header>
+        <h1 class="logo">LOGO</h1>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+    
+    <div class="wrapper">
+        <span class="icon-close">
+            <i class='bx bx-window-close'></i>
+        </span>
+        <div class="form-wrapper sign-in">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-group">
+                <input type="text" required>
+                <label for="">Username</label>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-group">
+                <input type="password" required>
+                <label for="">Password</label>
+                <i class='bx bxs-lock-alt' ></i>    
+            </div>
+                <div class="remember">
+                    <label for=""><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="signUp-link">
+                    <p>Don't have an account? <a href="#"
+                    class="signUpBtn-link">Sign Up</a></p>
+                </div>
+        </form>
+    </div>
+    <div class="form-wrapper sign-up">
+        <form action="">
+            <h1>Sign Up</h1>
+            <div class="input-group">
+                <input type="text" required>
+                <label for="">Username</label>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-group">
+            <input type="email" required>
+                <label for="">Email</label>
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-group">
+                <input type="password" required>
+                <label for="">Password</label>
+                <i class='bx bxs-lock-alt' ></i>    
+            </div>
+                <div class="remember">
+                    <label for=""><input type="checkbox"> I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+                <div class="signUp-link">
+                    <p>Already have an account? <a href="#"
+                    class="signInBtn-link">Sign In</a></p>
+                </div>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
